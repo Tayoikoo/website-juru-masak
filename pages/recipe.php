@@ -26,16 +26,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="../index.html">Home</a>
+                            <a class="nav-link" href="../index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="recipe.html">Resep Makanan</a>
+                            <a class="nav-link disabled" href="recipe.php">Resep Makanan</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="galery.html">Galeri</a>
+                            <a class="nav-link" href="galery.php">Galeri</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="profil.html">Profil</a>
+                            <a class="nav-link" href="profil.php">Profil</a>
                         </li>                                          
                     </ul>
                 </div>

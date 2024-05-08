@@ -16,7 +16,7 @@
     </style>    
 </head>
 <body class="d-flex flex-column min-vh-100">
-    <header>
+    <header>    
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
             <div class="container-fluid">
                 <span class="navbar-text white">Happy Cooking!</span>
@@ -26,45 +26,32 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="../index.html">Home</a>
+                            <a class="nav-link disabled" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="recipe.html">Resep Makanan</a>
+                            <a class="nav-link" href="pages/recipe.php">Resep Makanan</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="galery.html">Galeri</a>
+                            <a class="nav-link" href="pages/galery.php">Galeri</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="profil.html">Profil</a>
+                            <a class="nav-link" href="pages/profil.php">Profil</a>
                         </li>                                          
                     </ul>
                 </div>
             </div>
-        </nav>     
+        </nav>        
     </header>
 
     <main class="flex-grow-1">
-        <div class="container mt-3 bg-light">
-            <h1 class="text-center">Galeri</h1>
-            <p class="text-center">Foto dan dokumentasi Masak-masakan dan resep makanan</p>
-            <div class="row justify-content-center">
-                <div class="col-md-4">
-                    <div id="gambar-slide" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="https://www.shutterstock.com/image-photo/healthy-food-home-happy-woman-260nw-1397470610.jpg" class="d-block w-100">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="https://cdn.idntimes.com/content-images/community/2023/01/img-20230120-092532-f86cce9f67ab87e1f2714ff01fb5315e-bf9ae108563edbb9ef2eb51f350afe11_600x400.jpg" class="d-block w-100">
-                            </div>                    
-                            <div class="carousel-item">
-                                <img src="https://cdn.idntimes.com/content-images/community/2023/10/screenshot-20231003-074201-instagram-9bda39941cfa44e7cdebcbb5ada9c7b6.jpg" class="d-block w-100">
-                            </div>
-                        </div>
-                    </div>                    
-                </div>
-                <span class="d-inline-block d-md-block" ></span>
-                <p class="text-center mt-3">Mari bergabung dengan komunitas <b>"Happy Cooking!"</b> untuk mendapatkan pengalaman memasak dan berbagi resep makanan!</p>
+        <div class="container mt-3">
+            <h1 class="text-center">Happy Cooking</h1>
+            <p class="text-center">Happy Cooking merupakan komunitas yang aktif dalam berbagi resep memasak, pengalaman memasak</p>
+            <p class="text-center">Untuk Saat ini masih dalam tahap awal, jika ingin berkontribusi silahkan ke link ini</p>
+            <div class="text-center">
+                <a href="https://github.com/Tayoikoo/website-juru-masak" class="btn btn-primary">
+                    Link
+                </a>            
             </div>
         </div>        
     </main>
@@ -75,7 +62,7 @@
                 &copy; 2024 Happy Cooking
             </div>
         </div>
-    </footer>       
+    </footer>    
     <!-- Script JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
